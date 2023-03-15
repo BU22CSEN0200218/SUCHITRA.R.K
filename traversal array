@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+  // define string array.
+  char* users[5] = {"Rahul", "Ravi", "Raju", "Ram", "Shyam"};
+  int index=0;
+  while( index < 5) {
+    printf("Index %d : %s\n", index, users[index]);
+    // increase value by 1.
+    index++;
+  }
+  return 0;
+}
+*\
+*output
+/tmp/BcClwBnHPw.o
+Index 0 : Rahul
+Index 1 : Ravi
+Index 2 : Raju
+Index 3 : Ram
+Index 4 : Shyam
+*
